@@ -252,6 +252,7 @@ for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down $heigh
 
 assign [class="Pidgin"] 10
 assign [class="(?i)signal" title="(?i)Signal"] 10
+assign [class="(?i)irccloud" window_role="(?i)browser-window"] 9
 #assign [class="keepassxc"] 10
 #for_window [class="(?i)pavucontrol"] floating enable, move position mouse
 #for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down $height px
