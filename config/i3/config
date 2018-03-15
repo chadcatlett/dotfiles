@@ -192,7 +192,7 @@ bar {
 	font pango:DejaVu Sans Mono 8
 
         #status_command i3status
-	status_command py3status -c $HOME/.config/i3status/config
+	status_command py3status -c $HOME/.config/i3status/config --standalone
 	tray_output primary
 }
 
