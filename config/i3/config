@@ -12,6 +12,9 @@
 focus_follows_mouse yes
 set $mod Mod4
 
+#bindsym $mod+x exec "i3-msg shmlog on && i3-msg debuglog on"
+#bindsym $mod+Shift+x exec "i3-msg shmlog off && i3-msg debuglog off"
+
 #bindsym Control+Mod1+l exec --no-startup-id i3lock -c 000000 -f
 bindsym Control+Mod1+l exec --no-startup-id ~/bin/lock.sh
 
@@ -249,7 +252,7 @@ for_window [class="(?i)blueman"] floating enable
 for_window [class="(?i)nm-connection-editor"] floating enable
 for_window [class="(?i)pavucontrol"] floating enable, move position mouse
 for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down $height px
-
+for_window [class="(?i)keepassxc" instance="(?i)keepassxc"] floating enable
 assign [class="Pidgin"] 10
 assign [class="(?i)signal" title="(?i)Signal"] 10
 assign [class="(?i)irccloud" window_role="(?i)browser-window"] 9
