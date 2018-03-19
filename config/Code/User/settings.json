@@ -1,0 +1,9 @@
+{
+    "window.restoreWindows": "none",
+    "python.venvPath": "~/.virtualenvs",
+    "telemetry.enableTelemetry": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "block-outline",
+    "workbench.editor.enablePreview": false,
+    "explorer.autoReveal": false
+}
