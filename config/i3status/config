@@ -29,7 +29,7 @@ clock {
 
 battery_level "all" {
         battery_id = "all"
-        format = "{percent}"
+        format = "{percent}%"
 }
 
 wireless _first_ {
